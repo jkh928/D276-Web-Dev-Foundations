@@ -1,0 +1,24 @@
+# --- OS & System Files (Windows/Mac) ---
+.DS_Store
+Thumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# --- IDE & Editor Settings ---
+.vscode/
+.idea/
+*.swp
+*.sublime-workspace
+
+# --- Course Material Assets (Keep repo light) ---
+# Uncomment these if you keep instructions in the same folder
+# but don't want to upload them to GitHub:
+# *.pdf
+# *.docx
+# *.zip
+# *.rar
+
+# --- Logs & Debug ---
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
