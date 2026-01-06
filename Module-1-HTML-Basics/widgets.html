@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Form Widgets</title>
+</head>
+<body>
+    <h1>Form Widgets</h1>
+    <h2>Radio Buttons and Fieldsets</h2>
+    <form action="https://wp.zybooks.com/form-viewer.php" target="_blank" method="GET" aria-describedby="new-window-note">
+    <fieldset>
+        <legend>Select your favorite chain restaurant:</legend>
+        <div>
+            <input type="radio" name="restaurants" value="Subway" id="sub">
+            <label for="sub">Subway</label>
+        </div>
+        <div>
+            <input type="radio" name="restaurants" value="Starbucks" id="starB">
+            <label for="starB">Starbucks</label>
+        </div>
+        <div>
+            <input type="radio" name="restaurants" value="Pizza Hut" id="pH">
+            <label for="pH">Pizza Hut</label>
+        </div>
+    </fieldset>
+
+    <fieldset>
+        <legend>Select your favorite movie:</legend>
+        <div>
+            <input type="radio" name="movies" value="Gone with the Wind" id="goneWind">
+            <label for="goneWind">Gone with the Wind</label>
+        </div>
+        <div>
+            <input type="radio" name="movies" value="Star Wars, Episode IV" id="starWarsEpIV">
+            <label for="starWarsEpIV">Star Wars, Episode IV</label>
+        </div>
+        <div>
+            <input type="radio" name="movies" value="The Sound of Music" id="soundMusic">
+            <label for="soundMusic">The Sound of Music</label>
+        </div>
+        <div>
+            <input type="radio" name="movies" value="E.T.: The Extra-Terrestrial" id="eT">
+            <label for="eT">E.T: The Extra-Terrestrial</label>
+        </div>
+        <div>
+            <input type="radio" name="movies" value="Titanic" id="titanic">
+            <label for="titanic">Titanic</label>
+        </div>
+    </fieldset>
+    <p>
+        <input type="submit" value="Submit">
+    </p>
+    </form>
+</body>
+</html>
+
+<h2>Checkboxes</h2>
+<form action="https://wp.zybooks.com/form-viewer.php" target="_blank" method="GET">
+   <p>
+      <label for="birthday_today">Birthday today?</label>
+      <input type="checkbox" id="birthday_today" name="birthday_today" checked></p>
+      <p>
+      <label for="throw_party">Throw party?</label>
+      <input type="checkbox" id="throw_party" name="throw_party">
+   </p>
+
+   <p>
+      <input type="submit" value="Submit">
+   </p>
+</form>
+
+<h2>Dropdown Menu</h2>
+<form action="https://wp.zybooks.com/form-viewer.php" target="_blank" method="GET">
+   <label for="car_make">Select your car make:</label>
+   <select id="car_make" name="car_make">
+      <option value="ford">Ford</option>
+      <option value="chevrolet">Chevrolet</option>
+      <option value="toyota">Toyota</option>
+      <option value="honda">Honda</option>
+      <option value="nissan">Nissan</option>
+   </select>
+
+   <p>
+      <input type="submit" value="Submit">
+   </p>
+
+</form>
+
+<h2>Password</h2>
+<form action="https://wp.zybooks.com/form-viewer.php" target="_blank" method="POST">
+   <p>Enter your username and password:</p>
+   <p>
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" placeholder="Your username">
+   </p>
+
+   <label for="password">Password</label>
+   <input type="password" name="password" id="password" size="12" maxlength="12" minlength="8" placeholder="8-12 characters" required>
+
+   <p><input type="submit" value="Submit"></p>
+</form>
+
+<h2>List Boxes</h2>
+<form action="https://wp.zybooks.com/form-viewer.php" target="_blank" method="GET">
+   <label for="programming_languages">Select your favorite programming languages:</label>
+   <select id="programming_languages" name="programming_languages" size="5" multiple>
+      <option value="python">Python</option>
+      <option value="java">Java</option>
+      <option value="csharp">C#</option>
+      <option value="javascript">JavaScript</option>
+      <option value="ruby">Ruby</option>
+      <option value="swift">Swift</option>
+      </select>
+      </form>
+
+<h2>Buttons</h2>
+<form action="https://wp.zybooks.com/form-viewer.php" target="_blank" method="GET">
+   <p>
+      <input type="button" value="Click Me!" onclick="alert('Button clicked!')">
+   </p>
+</form>
+
+<h2>Date Picker</h2>
+<form action="https://wp.zybooks.com/form-viewer.php" target="_blank" method="GET">
+   <label for="appointment_date">Select an appointment date:</label>
+   <input type="date" id="appointment_date" name="appointment_date" max="2026-12-31" min="1924-01-01">
+
+   <p>
+      <input type="submit" value="Submit">
+   </p>
+</form>
+
+<h2>Color Picker</h2>
+<form action="https://wp.zybooks.com/form-viewer.php" target="_blank" method="GET">
+   <label for="fav_color">Select your favorite color:</label>
+   <input type="color" id="fav_color" name="fav_color" value="#ff0000">
+
+   <p>
+      <input type="submit" value="Submit">
+   </p>
+</form>
+
+<h2>Number Input</h2>
+<form action="https://wp.zybooks.com/form-viewer.php" target="_blank" method="GET">
+   <label for="quantity">Enter a quantity:</label>
+   <input type="number" id="quantity" name="quantity" min="1" max="10" value="1">
+
+   <p>
+      <input type="submit" value="Submit">
+   </p>
+</form>
+
+<h2>Range Input</h2>
+<form action="https://wp.zybooks.com/form-viewer.php" target="_blank" method="GET">
+   <label for="range_input">Select a range:</label>
+   <input type="range" id="range_input" name="range_input" min="0" max="100" value="50">
+
+   <p>
+      <input type="submit" value="Submit">
+   </p>
+</form>
+
+<h2>Combo Box</h2>
+<form action="https://wp.zybooks.com/form-viewer.php" target="_blank" method="GET">
+   <label for="browser">Select your favorite web browser and search engine:</label>
+   <input list="browsers" id="browser" name="browser">
+   <datalist id="browsers">
+      <option value="Google Chrome">
+      <option value="Mozilla Firefox">
+      <option value="Microsoft Edge">
+      <option value="Safari">
+      <option value="Opera">
+   </datalist>
+   <input list="search_engines" id="search_engine" name="search_engine">
+   <datalist id="search_engines">
+      <option value="Google">
+      <option value="Bing">
+      <option value="DuckDuckGo">
+      <option value="Yahoo">
+      <option value="Baidu">
+   </datalist>
+
+   <p>
+      <input type="submit" value="Submit">
+   </p>
+</form>
+
+<h2>Specialized Text Inputs</h2>
+<form action="https://wp.zybooks.com/form-viewer.php" target="_blank" method="GET">
+   <label for="email">Email:</label>
+   <input type="email" id="email" name="email" placeholder="example@example.com">
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" placeholder="123-456-7890">
+    <label for="url">Website:</label>
+    <input type="url" id="url" name="url" placeholder="https://www.example.com">
+    <label for="search">Search:</label>
+    <input type="search" id="search" name="search" placeholder="Search...">
+    <p>
+        <input type="submit" value="Submit">
+    </p>
+</form>
