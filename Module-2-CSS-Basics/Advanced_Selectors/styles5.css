@@ -1,0 +1,15 @@
+ol > li {
+   background-color: yellow;
+}
+
+ul {
+   background-color:magenta;
+}
+
+ol span, ul span {
+   background-color:cyan;
+}
+
+
+
+
