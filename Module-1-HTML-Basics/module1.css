@@ -1,0 +1,48 @@
+/*Lab 2 Photo Gallery Table */
+
+#mod1-lab2 table {
+    font-family: Arial;
+    border: 2px solid #eee;
+}
+
+#mod1-lab2 tr:nth-child(even) {
+    background-color: #eee;
+}
+
+#mod1-lab2 td {
+    padding: 10px;
+}
+
+/* Lab 4 - HTML Forms */
+
+#mod1-lab4 table td {
+   border: 2px solid gray;
+}
+
+/* Lab 6 - Social Network Form */
+
+#mod1-lab6 div {
+   margin-bottom: 10px;
+   width: 300px;
+}
+
+#mod1-lab6 label {
+   display: inline-block;
+   width: 100px;
+}
+
+#mod1-lab6 textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+/* Lab 7 - Happy Birthday Message Creator */
+
+#mod1-lab7 div {
+    margin-bottom: 10px;
+ }
+ 
+ #mod1-lab7 label {
+    display: inline-block;
+    width: 150px;
+ }
