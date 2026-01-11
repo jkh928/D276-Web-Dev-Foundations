@@ -1,0 +1,270 @@
+/* Exercise 1 - Basic Selectors in CSS */
+
+#mod2-ex1 li {
+   color: blue;
+}
+
+#mod2-ex1 .footnote {
+   text-decoration:underline;
+}
+
+#mod2-ex1 #footnote-1 {
+   color:orange;
+   font-style:italic;
+}
+
+/* Exercise 2 - Advanced Selectors in CSS */
+
+#mod2-ex2 ol > li {
+   background-color: yellow;
+}
+
+#mod2-ex2 ul {
+   background-color:magenta;
+}
+
+#mod2-ex2 ol span, #mod2-ex2 ul span {
+   background-color:cyan;
+}
+
+/* Exercise 3 - Common Properties in CSS */
+
+#mod2-ex3 .byname {
+   color: blue;
+}
+
+#mod2-ex3 .byrgb {
+   color: rgb(0, 255, 0);
+}
+#mod2-ex3 .byhsl {
+   color: hsl(200, 100%, 50%);
+}
+
+#mod2-ex3 p.classifieds {
+   font: 10pt monospace;
+}
+
+#mod2-ex3 h3.classifieds {
+   text-decoration: underline;
+   font: monospace;
+   margin-top: 20px;
+   margin-bottom: 0;
+}
+
+#mod2-ex3 .floating-images {
+   width: 50%;
+   padding: 10px;
+   margin: 10px;
+}
+#mod2-ex3 img {
+   width: 160px;
+   padding: 2px;
+   border: 5px groove gray;
+   margin: 5px 10px 20px;
+}
+
+#mod2-ex3 img.floatright {
+   float:right;
+}
+
+#mod2-ex3 img.floatleft {
+   float:left;
+}
+
+#mod2-ex3 .nofloats {
+   clear:both;
+}
+
+#mod2-ex3 .clear-floats {
+   clear: both;
+}
+
+#mod2-ex3 .box-model-example span {
+   padding-left: 5px;
+   padding-right: 5px;
+   border-top: 2px solid black;
+   border-bottom: 4px solid gray;
+}
+   
+#mod2-ex3 .box-model-example p {
+   padding: 10px;
+   border-style: ridge;
+   border-color: lightgreen;
+   border-width: 10px;
+   margin: 5px;
+}
+
+#mod2-ex3 .box-model-example {
+   width: 500px;
+   background-color: #f0f8ff;
+   margin-bottom: 20px;
+}
+
+/* Lab 9 - News Article Styling */
+
+#mod2-lab9 .container {
+    display: flex;
+    height: 100vh;
+    width: 100%;
+}
+
+#mod2-lab9 .without-CSS, #mod2-lab9 .with-CSS {
+    flex: 1;
+    padding: 20px;
+    box-sizing: border-box;
+    overflow-y: auto;
+}
+
+#mod2-lab9 .label {
+    background-color: #333;
+    color: white;
+    margin-top: 0; 
+    padding: 10px;
+    font-size: 1.2rem;
+    text-align: center;
+    border-bottom: 3px solid #666;
+}
+
+#mod2-lab9 .with-CSS .label {
+    background-color: #003366;
+    border-bottom: 3px solid #AB0520;
+}
+
+#mod2-lab9 img {
+    width: 300px;
+}
+
+#mod2-lab9 .floatleft {
+    float: left;
+    clear:both;
+    margin: 0 15px 15px 0;
+}
+
+#mod2-lab9 ol {
+    clear: both;
+}
+
+#mod2-lab9 .with-CSS h1 {
+   padding: 5px;
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 24px;
+   color: rgb(255,255,255);
+   background-color: rgb(255,0,0);
+
+}
+
+#mod2-lab9 #author-name-and-date {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 12px;
+   color: rgb(128, 128, 128);
+}
+
+#mod2-lab9 .with-CSS p, #mod2-lab9 .with-CSS ol {
+   font-family: 'Times New Roman', Times, serif;
+   font-size: 16px;
+   color: rgb(47, 79, 79)
+}
+
+#mod2-lab9 .with-CSS a {
+   font-family: Arial, Helvetica, sans-serif;
+   font-size: 12px;
+   color: rgb(0, 0, 255);
+}
+
+/* Lab 10 - Auto Loan Offer Comparison Styling */
+
+#mod2-lab10 body {
+   font-family: Roboto, Helvetica, sans-serif;
+}
+
+#mod2-lab10 h1 {
+   font-size: 16px;
+   color: #444444;
+}
+
+#mod2-lab10 .container {
+   text-align: center;
+   margin: 5px;
+   font-size: 13px;
+}
+
+#mod2-lab10 .offer {
+   display: inline-block;
+   width: 400px;
+   margin: 4px;
+   text-align: center;
+   border: 1px solid #cccccc;
+}
+
+#mod2-lab10 .offer-title {
+   font-weight: bold;
+   font-size: 14px;
+   color: #ffffff;
+   background-color: #00b3b3;
+   margin: 0px;
+   padding: 15px;
+   }
+
+#mod2-lab10 .offer-contents {
+   padding: 20px;
+   background-color: #fafafa;
+}
+
+#mod2-lab10 table {
+   width: 100%;
+   background-color: #ffffff;
+   border: 0px;
+}
+
+#mod2-lab10 th {
+   font-size: 12px;
+   font-weight: bold;
+   color: #777777;
+   text-align: left;
+   border-bottom: 1px solid #f1f1f1;
+   padding: 10px;
+   margin: 0px;
+}
+
+#mod2-lab10 td {
+   font-weight: lighter;
+   color: #444444;
+   padding: 20px 10px;
+   margin: 0px;
+   text-align: left;
+   border-bottom: 1px solid #f1f1f1;
+
+}
+
+#mod2-lab10 .final-value {
+   font-weight: bold;
+   color: #2222ff;
+}
+
+/* Lab 12 - Video Game Table Styling */
+
+#mod2-lab12 {
+   --table-color: forestgreen;
+   --row-bg-color: honeydew;
+   font-family: Calibri, Myriad;
+}
+   
+#mod2-lab12 #game-table {
+   border: 2px solid var(--table-color);
+   text-align: center;
+   height: 200px;
+   width: 400px;
+}
+
+#mod2-lab12 caption {
+   text-transform: UPPERCASE;
+   background-color: var(--table-color);
+   color: white;
+   padding: 10px;
+}
+
+#mod2-lab12 tr:nth-child(even) {
+   background-color: var(--row-bg-color);
+}
+
+
