@@ -55,3 +55,149 @@
    font-size: 12px;
    font-style: italic;
 }
+
+/* Exercise 3 - Grid Layout */
+
+#mod3-ex2 #grid-container { 
+   display: grid;
+   grid-template-columns: auto auto;
+   justify-content: center;
+}
+
+#mod3-ex2 figure {   
+   display: flex;
+   flex-direction: column;
+   width: 180px;
+   border: 1px solid lightgray;
+   padding: 5px;
+   margin: 10px;
+   text-align: center;
+}
+
+#mod3-ex2 #grid-container2 {
+   width: 400px;
+   font-size: 2em;
+   background: cornflowerblue;
+   display: grid;
+   grid-template-columns: auto auto auto;
+   gap: 5px 5px;
+}
+
+#mod3-ex2 #grid-container2 > div {
+   background: powderblue;
+   padding: 10px;
+}
+
+#mod3-ex2 #grid-container3 {
+   width: 400px;
+   font-size: 2em;
+   background: cornflowerblue;
+   display: grid;
+   grid-template-columns: auto auto auto;
+   gap: 5px 5px;
+}
+
+#mod3-ex2 #grid-container3 > div {
+   background: powderblue;
+   padding: 10px;
+}
+
+#mod3-ex2 #grid-item-a {
+   grid-row: 3 / 4;
+}
+
+#mod3-ex2 #grid-item-b {
+   grid-column: 3 / 4;
+   grid-row: 1 / 4; 
+}
+
+#mod3-ex2 #grid-item-c {
+   grid-area: 1 / 1 / 4 / 3;
+}
+
+#mod3-ex2 #flexbox {
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+}
+
+/* Exercise 4 - Page Layout Example */
+
+#mod3-ex2 .layout1 {
+   background: black;
+   font-size: 2em;
+   text-align: center; 
+}
+
+#mod3-ex2 .header1 {
+   background: cornflowerblue;
+   margin-bottom: 0px;
+}
+
+#mod3-ex2 .nav1 {
+   background: khaki;
+}
+
+#mod3-ex2 .article1 {
+   background: darkseagreen;
+}
+
+#mod3-ex2 .aside1 {
+   background: goldenrod;
+}
+
+#mod3-ex2 .footer1 {
+   background: lemonchiffon;
+   margin: 0px;
+}
+
+#mod3-ex2 .layout2 {
+   background: black;
+   font-size: 2em;
+   text-align: center;
+   display: grid;
+   grid-template-columns: 150px auto 150px;
+   grid-template-rows: 60px 180px 40px;
+   grid-template-areas: 
+      "head head head"
+      "nav article aside"
+      "foot foot foot";
+}
+
+#mod3-ex2 .header2 {
+   background: cornflowerblue;
+   margin-bottom: 0px;
+   grid-area: head;
+}
+
+#mod3-ex2 .nav2 {
+   background: khaki;
+   grid-area: nav;
+}
+
+#mod3-ex2 .article2 {
+   background: darkseagreen;
+   grid-area: article;
+}
+
+#mod3-ex2 .aside2 {
+   background: goldenrod;
+   grid-area: aside;
+}
+
+#mod3-ex2 .footer2 {
+   background: lemonchiffon;
+   margin: 0px;
+   grid-area: foot;
+}
+
+#mod3-ex2 .flexbox2 {
+   display: flex;
+   justify-content: center;
+   gap: 20px;
+   align-items: flex-start;
+}
+
+#mod3-ex2 h3 {
+   text-align: center;
+}
