@@ -1,0 +1,57 @@
+/* Exercise 1 - Flexbox Layout */
+
+#mod3-ex1 {
+   font-family: Arial;
+}
+
+#mod3-ex1 #container {
+   display: flex;
+   gap: 20px;
+   flex-direction: row-reverse;
+   justify-content: center;
+   flex-wrap: wrap;
+}
+
+#mod3-ex1 .photo {
+   padding: 10px;
+   box-shadow: 3px 3px 3px lightgray;
+   border: 1px solid lightgray;   
+}
+
+#mod3-ex1 .photo img {
+   width: 200px;
+}
+
+#mod3-ex1 .photo p {
+   text-align: center;
+}
+
+/* Exercise 2 - Album of the Year Nominees */
+
+#mod3-ex1 {
+   font-family: Arial;
+   font-size: 14px;
+}
+
+#mod3-ex1 section {
+   background-color: #eee;
+   margin: 5px;
+   padding: 5px;
+   flex-grow: 0;
+   flex-shrink: 1;
+   flex-basis: 250px;
+}
+
+#mod3-ex1 h2 {
+   margin: 0;  
+}
+
+#mod3-ex1 #albums-container {
+   display: flex;
+   flex-wrap: wrap;
+}
+
+#mod3-ex1 .source {
+   font-size: 12px;
+   font-style: italic;
+}
