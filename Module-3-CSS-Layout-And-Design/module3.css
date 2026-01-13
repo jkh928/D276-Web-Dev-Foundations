@@ -201,3 +201,145 @@
 #mod3-ex2 h3 {
    text-align: center;
 }
+
+/* Exercise 5 - Positioning and Z-Index */
+
+#mod3-ex3 img {
+  position: relative;
+  left: 10px;
+  z-index: 0;
+}
+
+#mod3-ex3 .words {
+   font-family: impact;
+   font-size: 60px;
+}
+
+#mod3-ex3 .first {
+   position: absolute;
+   left: 130px;
+   top: 187px;
+   z-index: 2;   
+}
+
+#mod3-ex3 .heart {
+   color: red; 
+   font-size: 80px;
+   position: absolute;
+   left: 150px;
+   top: 176px;
+   z-index: 2;
+}
+
+#mod3-ex3 .last {
+  position: absolute;  
+  left: 130px;
+  top: 245px;
+  z-index: 2;
+}
+
+/* Exercise 6 - Box Shadows and Text Shadows */
+
+#mod3-ex3 .card {
+   width: 300px;
+   background-color: #eee;
+   border: solid 1px black;
+   padding: 10px;
+   margin-bottom: 10px;
+   box-shadow: 3px 3px 3px blue;
+}
+
+#mod3-ex3 .question {
+   text-shadow: 1px 1px 1px blue;
+}
+
+#mod3-ex3 .answer {
+   box-shadow: 1px 1px 3px gold, 1px 1px 3px grey;
+}
+
+/* Exercise 7 - Border-Image */
+
+#mod3-ex3 .border-image-example {
+   display: grid;
+   grid-template-columns: auto auto auto auto auto auto;
+}
+
+#mod3-ex3 #example {
+   width: 100px;
+   border: 15px solid;
+   padding: 15px;
+   border-image: url(https://static-resources.zybooks.com/static/borderv2.png) 30 round;
+}
+
+#mod3-ex3 #example1 {
+   width: 100px;
+   border: 15px solid;
+   padding: 15px;
+   border-image: url(https://static-resources.zybooks.com/static/borderv2.png) 15 round;
+}
+
+#mod3-ex3 #example2 {
+   width: 100px;
+   border: 15px solid;
+   padding: 15px;
+   border-image: url(https://static-resources.zybooks.com/static/borderv2.png) 60 round;
+}
+
+#mod3-ex3 #example3 {
+   width: 100px;
+   border: 30px solid;
+   padding: 15px;
+   border-image: url(https://static-resources.zybooks.com/static/borderv2.png) 60 round;
+}
+
+#mod3-ex3 #example4 {
+   width: 100px;
+   border: 30px solid;
+   padding: 15px;
+   border-image: url(https://static-resources.zybooks.com/static/borderv2.png) 30 repeat;
+}
+
+#mod3-ex3 #example5 {
+   width: 100px;
+   border: 30px solid;
+   padding: 15px;
+   border-image: url(https://static-resources.zybooks.com/static/borderv2.png) 30 stretch;
+}
+
+/* Exercise 8 - CSS Gradients */
+
+#mod3-ex3 #ad1, #mod3-ex3 #ad2, #mod3-ex3 #ad3 {
+   text-align: center;
+   width: 500px;
+   height: 90px; 
+   line-height: 80px;   
+   font-weight: bold;
+   margin-bottom: 10px;
+}
+
+#mod3-ex3 .gradient {
+   background: radial-gradient(at 80% 80%, gray, white);
+   display: inline-block;
+   padding: 10px;
+}
+
+#mod3-ex3 #ad1 {   
+   font-size: 38pt;
+   background: repeating-radial-gradient(pink, gold, skyblue 15%);
+}
+
+#mod3-ex3 #ad2 {
+   font-size: 28pt;
+   font-family: arial;
+   font-style: italic;
+   color: white;
+   background: linear-gradient(to right,red, orange, red, black);
+}
+
+#mod3-ex3 #ad3 {
+   font-size: 34pt;
+   font-family: tahoma;
+   font-variant: small-caps;
+   color: black;
+   background: repeating-linear-gradient(to top left, rgba(30, 143, 255, 0.837), rgba(220, 220, 220, 0.881) 10%);
+}
