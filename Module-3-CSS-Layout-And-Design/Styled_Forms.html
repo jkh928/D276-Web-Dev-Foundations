@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Styled Forms</title>
+   <link rel="stylesheet" href="../master.css">
+   <link rel="stylesheet" href="module3.css">
+</head>
+<body id="mod3-ex4">
+
+    <section>
+   <h1>Styled Forms and Selectors</h1>
+   <h2>Form Example</h2>
+<form action="https://wp.zybooks.com/form-viewer.php" target="_blank" method="GET">
+   <p>
+      <label class="label1" for="name">Name</label>
+      <input type="text" id="name" name="fullname">
+   </p>
+   <p>
+      <label class="label1" for="email">Email</label>
+      <input type="email" id="email" name="email">
+   </p>
+   <p>
+      <label class="label1" for="service">Service</label>
+      <select id="service" name="service">
+        <option>Basic</option>
+        <option>Prime</option>
+        <option>Deluxe</option>        
+      </select>
+   </p>
+  
+   <input type="submit" value="Register">
+</form>
+</section>
+<hr>
+
+<section>
+    <h2>Radio Buttons and Checkboxes Example</h2>
+    <fieldset>
+   <legend>Size:</legend>
+   <div>
+      <input id="small" type="radio" name="size" value="small">
+      <label for="small">Small</label>
+   </div>
+   <div>
+      <input id="medium" type="radio" name="size" value="medium">
+      <label for="medium">Medium</label>
+   </div>
+   <div>
+      <input id="large" type="radio" name="size" value="large">
+      <label for="large">Large</label>
+   </div>
+</fieldset>
+
+<fieldset>
+   <legend>Flavors:</legend>
+   <div>
+      <input id="raspberry" type="checkbox" name="flavor" value="chocolate">
+      <label for="raspberry">Raspberry</label>
+   </div>
+   <div>
+      <input id="grape" type="checkbox" name="flavor" value="grape">
+      <label for="grape">Grape</label>
+   </div>
+   <div>
+      <input id="cherry" type="checkbox" name="flavor" value="cherry">
+      <label for="cherry">Cherry</label>
+   </div>
+   <div>
+      <input id="root-beer" type="checkbox" name="flavor" value="rootbeer">
+      <label for="root-beer">Root Beer</label>
+   </div>
+</fieldset>
+
+</section>
+
+<footer>
+        <hr>
+            <a href="index.html">Back to Module 3 Assignments</a>
+            <a href="../index.html">Back to Home Hub</a>
+    </footer>
+</body>
+</html>
