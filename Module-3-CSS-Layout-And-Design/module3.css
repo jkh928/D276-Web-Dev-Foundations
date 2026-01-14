@@ -551,3 +551,36 @@
    flex-grow: 1;
    flex-basis: 20%;
 }
+
+/* Lab 15 - Tic-Tac-Toe Grid */
+
+#mod3-ex6 {
+   font-family: Roboto, Helvetica, sans-serif;
+   text-align: center;
+}
+
+#mod3-ex6 #board {
+   font: 85px arial, sans-serif;
+   margin: 3px;
+   
+   display: grid;
+   grid-template-columns: 100px 100px 100px;
+   grid-template-rows: 100px 100px 100px;
+   grid-gap: 10px;
+   justify-content: center;     
+
+}
+
+#mod3-ex6 #board > div {
+   border: 1px solid LightSkyBlue;
+   text-align: center;
+}
+
+#mod3-ex6 .x {
+   color: red;
+}
+
+#mod3-ex6 .o {
+   color: blue;
+ }
+ 
