@@ -181,9 +181,13 @@
    font-family: Roboto, Helvetica, sans-serif;
 }
 
-#mod2-lab10 h1 {
+#mod2-lab10 .title1 {
    font-size: 16px;
    color: #444444;
+}
+
+#mod2-lab10 h1.title {
+   text-align: left;
 }
 
 #mod2-lab10 .container {

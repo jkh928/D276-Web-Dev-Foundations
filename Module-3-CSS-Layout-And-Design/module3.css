@@ -466,12 +466,12 @@
 
 /* Lab 14 - Recipe Page Layout with Flexbox */
 
-#mod3-ex5 {
+#mod3-lab14 {
    margin: 0;
    font-family: Helvetica, sans-serif;
 }
 
-#mod3-ex5 header {
+#mod3-lab14 header {
    border-bottom: 2px solid #93B5C6;
    background-color: #DDEDAA;
    padding: 8px;
@@ -479,33 +479,33 @@
    justify-content: space-between;
 }
 
-#mod3-ex5 .logo {
+#mod3-lab14 .logo {
    color: #BD4F6C;
    font-size: 18px;
 }
 
-#mod3-ex5 .content {
+#mod3-lab14 .content {
    margin-left: 30px;
    display: flex;
    flex-wrap: wrap;
 }
 
-#mod3-ex5 .title {
+#mod3-lab14 .title1{
    border-bottom: 1px dashed #93B5C6;
    display: flex;
    align-items: baseline;
 }
 
-#mod3-ex5 .title h1 {
+#mod3-lab14 .title1 h1 {
    color: #BD4F6C;
 }
 
-#mod3-ex5 .title p {
+#mod3-lab14 .title1 p {
    color: #93B5C6;
    margin-left: 30px;
 }
 
-#mod3-ex5 .summary {
+#mod3-lab14 .summary {
    margin-top: 30px;
    display: flex;
    justify-content: space-evenly;
@@ -513,7 +513,7 @@
    flex-basis: 100%;
 }
 
-#mod3-ex5 .summary > div {
+#mod3-lab14 .summary > div {
    background-color: #DDEDAA;
    border: 2px solid #93B5C6;
    border-radius: 5px;
@@ -522,44 +522,44 @@
    width: 210px;
 }
 
-#mod3-ex5 .summary div p {
+#mod3-lab14 .summary div p {
    display: flex;
    justify-content: space-between;
 }
 
-#mod3-ex5 .related-content {
+#mod3-lab14 .related-content {
    margin-left: 100px;
 }
 
-#mod3-ex5 .related-content h2 {
+#mod3-lab14 .related-content h2 {
    font-size: 18px;
 }
 
-#mod3-ex5 .main-content {
+#mod3-lab14 .main-content {
    display: flex;
    flex-wrap: wrap;
    flex-grow: 1;
    flex-basis: 70%;
 }
 
-#mod3-ex5 .ingredients, #mod3-ex5 .directions {
+#mod3-lab14 .ingredients, #mod3-lab14 .directions {
    flex-grow: 1;
    flex-basis: 45%;
 }
 
-#mod3-ex5 .related-content {
+#mod3-lab14 .related-content {
    flex-grow: 1;
    flex-basis: 20%;
 }
 
 /* Lab 15 - Tic-Tac-Toe Grid */
 
-#mod3-ex6 {
+#mod3-lab15 {
    font-family: Roboto, Helvetica, sans-serif;
    text-align: center;
 }
 
-#mod3-ex6 #board {
+#mod3-lab15 #board {
    font: 85px arial, sans-serif;
    margin: 3px;
    
@@ -571,36 +571,40 @@
 
 }
 
-#mod3-ex6 #board > div {
+#mod3-lab15 #board > div {
    border: 1px solid LightSkyBlue;
    text-align: center;
 }
 
-#mod3-ex6 .x {
+#mod3-lab15 .x {
    color: red;
 }
 
-#mod3-ex6 .o {
+#mod3-lab15 .o {
    color: blue;
+ }
+
+ .title {
+   text-align: left;
  }
 
 /* Lab 16 - Playing Cards */
 
-#mod3-ex7 .table {
+#mod3-lab16 .table {
    width: 400px;
    height: 300px;
    background: linear-gradient(forestgreen, darkgreen);
 }
 
-#mod3-ex7 .card-red {
+#mod3-lab16 .card-red {
    color: red;
 }
 
-#mod3-ex7 .card-black {
+#mod3-lab16 .card-black {
    color: black;
 }
 
-#mod3-ex7 .card {
+#mod3-lab16 .card {
    background-color: whitesmoke;
    border: 1px solid black;         
    width: 100px;
@@ -613,7 +617,7 @@
 
 }      
 
-#mod3-ex7 .card-top {
+#mod3-lab16 .card-top {
    position: absolute;
    left: 150px;
    top: 100px;
@@ -621,7 +625,7 @@
 
 }
 
-#mod3-ex7 .card-bottom {
+#mod3-lab16 .card-bottom {
    position: absolute;
    left: 240px;
    top: 120px;
@@ -629,7 +633,7 @@
 
 }
 
-#mod3-ex7 .heart {
+#mod3-lab16 .heart {
    color: red;
    font-size: 28px; 
    width: 30px;
@@ -637,7 +641,7 @@
    line-height: 30px;
 }
 
-#mod3-ex7 .spade {
+#mod3-lab16 .spade {
    color: black;
    font-size: 36px; 
    width: 30px;
@@ -645,14 +649,14 @@
    line-height: 30px;
 }
 
-#mod3-ex7 .top-left {
+#mod3-lab16 .top-left {
    position: absolute;
    left: 2px;
    top: 2px;
 
 }
 
-#mod3-ex7 .bottom-right {
+#mod3-lab16 .bottom-right {
    position: absolute;
    right: 2px;
    bottom: 2px;
