@@ -698,3 +698,123 @@
    border-radius: 5px;
 }
  
+/* Lab 19 - Vacation Page */
+
+#mod3-lab19 {
+   --theme-color: #7395AE;
+   --theme-dark-color: #557A95;
+   --primary-font-color: #5D5C61;
+   --link-font-color: white;
+}
+
+#mod3-lab19 {
+   font-family: Helvetica, sans-serif;
+   color: var(--primary-font-color);
+   padding: 10px;
+}
+
+#mod3-lab19 a {
+   text-decoration: none;
+   color: var(--theme-dark-color);
+}
+
+#mod3-lab19 header {
+   margin: 0;
+}
+
+#mod3-lab19 header > h1 {
+   color: var(--theme-dark-color);
+   font-size: 2rem;
+   margin: 10px 0;
+   text-shadow: 2px 2px 3px gray;
+}
+
+#mod3-lab19 nav {
+   background-color: var(--theme-color);
+}
+
+#mod3-lab19 nav ul {
+   list-style-type: none;
+   padding: 10px 0;
+}
+
+#mod3-lab19 nav li {
+   padding: 10px 0;
+}
+
+#mod3-lab19 nav li a {
+   padding: 10px 20px;
+   color: var(--link-font-color);
+}
+
+#mod3-lab19 nav li a:hover {
+   background-color: var(--theme-dark-color);
+}
+
+#mod3-lab19 nav {
+   font-size: larger;
+}
+
+#mod3-lab19 main {
+   margin: 0;
+}
+
+#mod3-lab19 main > section {
+   margin-top: 10px;
+   padding-top: 10px;
+}
+
+#mod3-lab19 .benefits-inner-container {
+   display: flex;
+   flex-direction: row;
+}
+
+#mod3-lab19 .benefits-container {
+   display: flex;
+   flex-direction: column;
+}
+
+#mod3-lab19 .benefit {
+   color: var(--theme-dark-color);
+   margin-left: 10px;
+   margin-right: 20px;
+}
+
+#mod3-lab19 .vacation-container {
+   display: flex;
+   flex-direction: column;
+}
+
+#mod3-lab19 .vacation-container img {
+   width: 95%;
+}
+
+@media all and (min-width: 600px) {
+   #mod3-lab19 .benefits-container {
+      flex-direction: row;
+   }
+}
+
+@media all and (min-width: 700px) {
+   #mod3-lab19 nav li {
+      display: inline;
+   }
+
+   #mod3-lab19 header > h1 {
+      font-size: 3rem;
+   }
+}
+
+@media all and (min-width: 800px) {
+   #mod3-lab19 .vacation-container img {
+      width: 50vw;
+   }
+
+   #mod3-lab19 .vacation-container {
+      flex-direction: row;
+   }
+
+   #mod3-lab19 .vacation-container > div {
+      margin-left: 20px;
+   }
+}
